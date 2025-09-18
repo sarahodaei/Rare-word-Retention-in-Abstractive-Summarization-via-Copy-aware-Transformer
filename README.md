@@ -83,11 +83,6 @@ notebooks/CopyAware.ipynb
 Read the full dissertation:
 thesis/SaraHodaei_Thesis.pdf
 
-Citation
-
-If you use this work, please cite:
-
-Hodaei, S. (2025). Rare-Word Retention in Abstractive Summarisation via Hybrid Copy-Aware Transformer. MSc Dissertation, University of Greenwich.
 
 License
 
