@@ -22,28 +22,28 @@ Results on the CNN/DailyMail dataset show consistent ROUGE gains and up to **80%
 ---
 
 ## Repository Structure
+
+```text
 copy-aware-summarization-thesis/
 │
-├── README.md → Project overview
-├── LICENSE → MIT License
-├── requirements.txt → Python dependencies
+├── README.md                → Project overview
+├── LICENSE                  → MIT License
+├── requirements.txt          → Python dependencies
 │
 ├── thesis/
-│ └── SaraHodaei_Thesis.pdf
+│   └── SaraHodaei_Thesis.pdf
 │
 ├── notebooks/
-│ └── CopyAware.ipynb
+│   └── CopyAware.ipynb
 │
 ├── src/
-│ └── copyaware.py
+│   └── copyaware.py
 │
 ├── data/
-│ └── README.md → How to obtain CNN/DailyMail dataset
+│   └── README.md            → How to obtain CNN/DailyMail dataset
 │
 └── docs/
-└── index.md → GitHub Pages landing page
-
----
+    └── index.md             → GitHub Pages landing page
 
 ## Environment
 
