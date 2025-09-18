@@ -75,11 +75,6 @@ dataset = load_dataset("cnn_dailymail", "3.0.0")
 
 Usage
 
-Run preprocessing and exploratory analysis:
-
-python src/copyaware.py
-
-
 Open the Colab notebook for experiments:
 notebooks/CopyAware.ipynb
 
@@ -97,13 +92,3 @@ License
 This project is released under the MIT License
 .
 
-
-
----
-
-This way:  
-- The **repo structure** is in a neat code block.  
-- **Bash commands** and **Python code** are clearly separated.  
-- Headings and spacing are consistent.  
-
-Do you want me to also prepare the **`docs/index.md`** (for GitHub Pages) so it matches this cleaned README?
