@@ -1,0 +1,2 @@
+# Rare-word-Retention-in-Abstractive-Summarization-via-Copy-aware-Transformer
+Rare-Word Retention in Abstractive Summarisation via Hybrid Copy-Aware Transformer. This project explores the integration of pointer–generator and coverage mechanisms into BART-base, combined with span-aware decoding and entity-focused evaluation, to improve factuality and rare-word/entity retention in CNN/DailyMail summarisation.
