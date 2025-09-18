@@ -21,7 +21,7 @@ Results on the CNN/DailyMail dataset show consistent ROUGE gains and up to **80%
 
 ---
 
-## Repository Structure
+Repository Structure
 
 ```text
 copy-aware-summarization-thesis/
@@ -44,7 +44,9 @@ copy-aware-summarization-thesis/
 │
 └── docs/
     └── index.md             → GitHub Pages landing page
-###Environment
+
+
+Environment
 
 Developed and tested on Google Colab Pro with:
 
@@ -59,7 +61,7 @@ Datasets 3.0.1
 A full list of dependencies (with pinned versions) is provided in requirements.txt
 .
 
-###Getting Started
+Getting Started
 
 Clone the repository and install dependencies:
 
