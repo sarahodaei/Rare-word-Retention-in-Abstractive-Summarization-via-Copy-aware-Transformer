@@ -44,27 +44,66 @@ copy-aware-summarization-thesis/
 │
 └── docs/
     └── index.md             → GitHub Pages landing page
+Environment
 
-## Environment
+Developed and tested on Google Colab Pro with:
 
-Developed and tested on **Google Colab Pro** with:
+Python 3.10
 
-- Python 3.10  
-- PyTorch 2.6.0 + CUDA 12.4  
-- Transformers 4.44.2  
-- Datasets 3.0.1  
+PyTorch 2.6.0 + CUDA 12.4
 
-A full list of dependencies (with pinned versions) is provided in [`requirements.txt`](requirements.txt).
+Transformers 4.44.2
 
----
+Datasets 3.0.1
 
-## Getting Started
+A full list of dependencies (with pinned versions) is provided in requirements.txt
+.
+
+Getting Started
 
 Clone the repository and install dependencies:
 
-```bash
 git clone https://github.com/YOUR_USERNAME/copy-aware-summarization-thesis.git
 cd copy-aware-summarization-thesis
 pip install -r requirements.txt
+
+
+Download the CNN/DailyMail dataset:
+
 from datasets import load_dataset
 dataset = load_dataset("cnn_dailymail", "3.0.0")
+
+Usage
+
+Run preprocessing and exploratory analysis:
+
+python src/copyaware.py
+
+
+Open the Colab notebook for experiments:
+notebooks/CopyAware.ipynb
+
+Read the full dissertation:
+thesis/SaraHodaei_Thesis.pdf
+
+Citation
+
+If you use this work, please cite:
+
+Hodaei, S. (2025). Rare-Word Retention in Abstractive Summarisation via Hybrid Copy-Aware Transformer. MSc Dissertation, University of Greenwich.
+
+License
+
+This project is released under the MIT License
+.
+
+
+
+---
+
+This way:  
+- The **repo structure** is in a neat code block.  
+- **Bash commands** and **Python code** are clearly separated.  
+- Headings and spacing are consistent.  
+
+Do you want me to also prepare the **`docs/index.md`** (for GitHub Pages) so it matches this cleaned README?
