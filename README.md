@@ -36,9 +36,6 @@ copy-aware-summarization-thesis/
 ├── notebooks/
 │   └── CopyAware.ipynb
 │
-├── src/
-│   └── copyaware.py
-│
 ├── data/
 │   └── README.md            → How to obtain CNN/DailyMail dataset
 │
