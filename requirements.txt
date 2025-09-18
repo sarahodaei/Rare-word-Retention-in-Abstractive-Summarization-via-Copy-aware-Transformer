@@ -1,0 +1,39 @@
+# Core deep learning stack
+torch==2.6.0        # with CUDA 12.4 (cu124 build in Colab)
+torchvision==0.21.0
+torchaudio==2.6.0
+
+# Hugging Face ecosystem
+transformers==4.44.2
+datasets==3.0.1
+evaluate==0.4.3
+accelerate==0.34.2
+huggingface-hub==0.24.6
+sentencepiece==0.2.0
+protobuf==5.28.2
+
+# Data & analysis
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.2
+matplotlib==3.9.2
+seaborn==0.13.2
+tqdm==4.66.5
+
+# Text processing
+spacy==3.7.6
+nltk==3.9.1
+regex==2024.7.24
+
+# Colab
+notebook==7.2.1
+ipykernel==6.29.5
+
+# Utilities
+psutil==6.0.0
+
+# Optional (used for evaluation & logging)
+rouge-score==0.1.2
+sacrebleu==2.4.3
+wandb==0.18.0
